@@ -2,7 +2,7 @@
 
 class Database  {
 
-	private $localhost = 'localhost';
+	private $localhost = 'localhostasd';
 	private $db_benutzer = 'root';
 	private $db_passwort = '';
 	private $db_name = 'mycms';
