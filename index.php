@@ -18,4 +18,3 @@ while( $ds = $res->fetch_assoc(  ) ){
 
 
 ?>
-asd
