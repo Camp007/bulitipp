@@ -1,0 +1,9 @@
+RewriteEngine on
+
+RewriteRule ^([^\.]*)/([^\.]*)/([^\.]*)/?$ index.php?d=$1&s=$2&g=$3 [L,QSA]
+RewriteRule ^([^\.]*)/([^\.]*)/?$ index.php?d=$1&s=$2 [L,QSA]
+#RewriteCond %{REQUEST_URI} !^admin/
+RewriteRule ^([^\.]*)/?$ index.php?d=$1 [L,QSA]
+
+
+
