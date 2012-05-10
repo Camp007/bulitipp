@@ -1,1 +1,4 @@
-database.php
+classes/database.php
+.buildpath
+.project
+.settings
