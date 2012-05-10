@@ -3,7 +3,21 @@ require_once 'libs/smarty/Smarty.class.php';
 require_once 'database.php';
 $smarty = new Smarty();
 
-$smarty->assign( "test", "was auch immer " );
+error_reporting( E_ERROR | E_WARNING | E_PARSE );
+if( $_GET['d']  == '' ){
+	$user = new TipperService;
+	$ar = $user->getAllUser();
+	$header = Header::getHeader();
+	$test = TipperService::getTest();
+	$smarty->assign( "mannschaften", $ar );
+}elseif( $_GET['d'] == 'detail' ) {
+
+}
+
+
+
+/*
+$smarty->assign( "allew", $content );
 $smarty->display( 'tpl/test.tpl' );
 
 $db = new Database();
@@ -16,5 +30,8 @@ while( $ds = $res->fetch_assoc(  ) ){
 }
 
 
-
+*/
+$smarty->assign( "header", $header );
+$smarty->assign( "allew", $content );
+$smarty->display( 'tpl/test.tpl' );
 ?>
