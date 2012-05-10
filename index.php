@@ -2,7 +2,7 @@
 require_once 'libs/smarty/Smarty.class.php';
 require_once 'database.php';
 $smarty = new Smarty();
-// MEIN TESt
+// MEIN TESt2
 error_reporting( E_ERROR | E_WARNING | E_PARSE );
 if( $_GET['d']  == '' ){
 	$user = new TipperService;
