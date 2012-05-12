@@ -3,6 +3,8 @@ require_once 'libs/smarty/Smarty.class.php';
 require_once 'classes/Database.php';
 $smarty = new Smarty();
 
+error_reporting(0);
+
 $d = $_GET['d']; $s = $_GET['s']; $g = $_GET['g'];
 
 
@@ -18,6 +20,8 @@ if( $d == '' ){
 
 	$smarty->assign( "tipps", "Tipps" );
 	$content = $smarty->fetch( 'tpl/tipps.tpl' );
+	$tipper = new TipperService();
+	print_r ( $tipper->getAllUser() ) ;
 	
 	/*
 	$cat = new CategoryService;
