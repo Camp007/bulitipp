@@ -108,6 +108,9 @@ $naitik = $facebook->api('/naitik');
     // Additional initialization code here
   };
 
+<<<<<<< HEAD
+//Hallo Wuest
+=======
   // Load the SDK Asynchronously
   (function(d){
      var js, id = 'facebook-jssdk', ref = d.getElementsByTagName('script')[0];
@@ -120,6 +123,7 @@ $naitik = $facebook->api('/naitik');
 </html>
 
 <?php 
+>>>>>>> upstream/master
 if( $d == '' ){
 	
 
