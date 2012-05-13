@@ -1,12 +1,16 @@
 <?php
 
-class TipperBean{
+class TipperBean {
 	
 	private $id;
+	private $name;
+	
 	
 	function setId( $t ){ $this->id = $t; }
-	function getId( $manipulieren ) { return $this->id . $manipulieren; }
+	function getId(  ) { return $this->id;  }
 	
+	function setName( $t ){ $this->name = $t; }
+	function getName( ) { return $this->name ; }
 }
 
 ?>
