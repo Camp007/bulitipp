@@ -6,6 +6,7 @@ $smarty = new Smarty();
 
 error_reporting(0);
 
+//dodo
 $d = $_GET['d']; $s = $_GET['s']; $g = $_GET['g'];
 
 $appid = '301216299964286';
