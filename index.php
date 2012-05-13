@@ -6,7 +6,7 @@ $smarty = new Smarty();
 $d = $_GET['d']; $s = $_GET['s']; $g = $_GET['g'];
 
 
-
+//Hallo Wuest
 if( $d == '' ){
 	
 
