@@ -124,7 +124,7 @@ $naitik = $facebook->api('/naitik');
 </html>
 
 <?php 
->>>>>>> upstream/master
+
 if( $d == '' ){
 	
 
