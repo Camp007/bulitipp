@@ -1,1 +1,3 @@
 {$startseite}
+
+{$user-getId()}
