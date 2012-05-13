@@ -1,5 +1,5 @@
 <?php
-
+// TEST
 class TipperBean{
 	
 	private $id;
