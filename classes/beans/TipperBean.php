@@ -1,6 +1,11 @@
 <?php
+<<<<<<< HEAD
+// TEST
+class TipperBean{
+=======
 
 class TipperBean {
+>>>>>>> camp/master
 	
 	private $id;
 	private $name;
